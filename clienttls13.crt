@@ -1,0 +1,115 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            09:1c:f0:ef:03:be:43:fa:60:e6:4e:48:38:92:f1:5e
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=ES, O=Teleco, CN=Root CA
+        Validity
+            Not Before: Apr  7 18:35:40 2023 GMT
+            Not After : Apr  4 18:35:40 2033 GMT
+        Subject: C=ES, O=Teleco, CN=clienttls13
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:cb:55:cf:da:72:56:c7:c2:8f:fe:85:68:b7:e9:
+                    26:ec:33:ed:b2:da:bb:5e:64:63:3a:10:f3:59:63:
+                    ed:c6:62:7e:9b:35:c7:c6:6b:0c:d8:f4:ea:81:a9:
+                    20:c0:2e:65:1f:f0:a7:67:94:8a:1d:61:b0:fa:e5:
+                    71:ad:02:39:d9:ee:56:a4:fd:6d:a6:4a:f3:88:ce:
+                    84:2b:47:2f:08:b1:8a:ac:3f:53:22:55:e1:6f:21:
+                    c2:3c:01:1a:bc:93:79:72:d9:d5:eb:34:ee:50:5e:
+                    49:14:86:a4:c8:27:62:69:18:6f:3c:4e:89:df:c9:
+                    73:3d:3c:52:c0:76:47:43:ab:92:78:61:c0:d2:4a:
+                    61:78:84:e6:50:72:43:f9:f4:7e:cd:67:50:5a:d3:
+                    4d:77:23:61:80:4b:c2:d4:71:27:d0:fe:85:3b:b8:
+                    ee:a7:e5:36:86:1b:a3:d1:53:41:cc:76:03:b7:6a:
+                    d0:93:7d:f3:db:02:d3:ea:fe:b8:c1:98:86:63:53:
+                    b2:31:af:eb:c8:f5:06:78:e7:28:ab:d3:c2:5e:59:
+                    4a:14:c8:47:28:3d:19:6f:8a:84:1b:d2:a7:85:7f:
+                    7d:85:c8:7e:f7:b8:f0:f9:1a:ba:5c:98:83:57:eb:
+                    33:a2:db:5a:d8:0a:67:c8:08:93:4a:dd:10:41:22:
+                    5a:bd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Authority Information Access: 
+                CA Issuers - URI:http://root-ca.Teleco.com/root-ca.crt
+                OCSP - URI:http://ocsp.root-ca.Teleco.com:9080
+
+            X509v3 Authority Key Identifier: 
+                keyid:BB:76:61:0A:4C:9B:87:48:87:E7:1A:23:CF:9F:4E:0C:86:02:7A:C6
+
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://root-ca.Teleco.com/root-ca.crl
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Subject Key Identifier: 
+                57:35:3C:AC:E6:BE:D3:7F:30:58:35:28:33:2F:3C:B6:C4:65:09:DA
+    Signature Algorithm: sha256WithRSAEncryption
+         1e:3f:df:59:ae:cc:9b:8d:b0:4a:fb:ff:87:03:b2:b1:03:0f:
+         12:06:2d:7d:1a:12:22:b7:89:52:d2:06:b8:e6:07:6a:29:99:
+         4d:ab:4f:7b:9b:74:f2:33:db:6e:88:70:a2:6c:8c:87:31:1b:
+         ec:4e:c3:18:0b:76:30:13:38:30:6f:9e:ae:81:1e:df:82:de:
+         2e:2a:15:ff:51:63:0c:8c:3e:19:09:ca:d1:bf:c4:8c:b2:33:
+         dc:ae:b8:11:6b:29:a2:fa:c8:3d:a4:41:3c:37:b7:be:ca:80:
+         3f:84:30:bb:a9:fb:19:07:ec:ef:cd:7d:4e:a2:d9:6d:6f:89:
+         3f:bd:73:99:15:10:9b:93:cb:16:12:72:5a:63:97:49:ce:a7:
+         ab:e4:ce:4b:45:38:76:f5:9e:b7:1b:95:69:66:db:5f:64:f3:
+         d1:ba:9d:79:67:58:31:b2:f1:4e:cf:0a:47:29:be:6d:66:97:
+         c5:c1:97:55:32:f2:70:c7:58:2f:b7:65:8d:66:ad:79:63:c2:
+         6f:dc:fd:46:9f:2e:c5:f7:96:60:12:ca:34:c3:ce:3e:a6:8b:
+         eb:21:23:16:af:9f:94:0e:06:1d:e0:9a:ce:fc:16:7c:09:2f:
+         54:b5:73:42:e5:b8:67:1d:9a:35:21:52:79:ff:b9:8a:f9:3e:
+         91:8e:8f:59:22:f3:80:cc:d0:00:ba:d5:6c:cd:4e:03:51:31:
+         43:e7:4c:01:d6:ff:22:63:01:f9:b1:83:0b:f4:2c:09:93:2a:
+         ad:22:0b:8b:c2:0c:58:9e:31:06:4d:4e:ce:57:18:d1:74:7a:
+         ea:16:07:8e:48:d6:3a:07:24:4c:f0:77:41:b0:5c:43:4e:2d:
+         f0:7b:d5:78:31:96:43:50:ba:86:0c:ee:f1:1c:5a:96:a6:e0:
+         38:b8:e4:5d:bd:21:eb:34:bc:e7:45:b8:fd:25:f0:ca:ab:52:
+         0e:4e:aa:85:ed:7e:89:49:49:9f:de:89:77:04:7f:70:05:f4:
+         e5:c1:d2:0f:1a:01:55:25:99:dc:f6:21:fd:5b:9d:3d:3c:86:
+         91:66:ef:40:d6:06:97:8d:93:52:97:77:c4:dd:59:ae:df:08:
+         a1:56:74:b1:08:ff:8a:38:87:bc:49:51:1e:b2:cf:ef:c0:46:
+         9a:45:48:81:f6:34:47:2c:f4:85:d9:b7:bc:20:a2:0c:f4:1c:
+         9f:33:a7:2d:6a:38:c7:7e:54:67:b4:ec:43:d1:03:1e:bf:35:
+         ea:54:6b:56:9c:c5:f7:11:be:0b:33:16:32:db:0a:c2:59:44:
+         94:ad:be:59:11:6e:68:d5:97:71:b8:c5:b3:9e:f1:03:cb:62:
+         ea:45:a1:a1:dc:4e:f5:50
+-----BEGIN CERTIFICATE-----
+MIIFEzCCAvugAwIBAgIQCRzw7wO+Q/pg5k5IOJLxXjANBgkqhkiG9w0BAQsFADAw
+MQswCQYDVQQGEwJFUzEPMA0GA1UECgwGVGVsZWNvMRAwDgYDVQQDDAdSb290IENB
+MB4XDTIzMDQwNzE4MzU0MFoXDTMzMDQwNDE4MzU0MFowNDELMAkGA1UEBhMCRVMx
+DzANBgNVBAoMBlRlbGVjbzEUMBIGA1UEAwwLY2xpZW50dGxzMTMwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDLVc/aclbHwo/+hWi36SbsM+2y2rteZGM6
+EPNZY+3GYn6bNcfGawzY9OqBqSDALmUf8KdnlIodYbD65XGtAjnZ7lak/W2mSvOI
+zoQrRy8IsYqsP1MiVeFvIcI8ARq8k3ly2dXrNO5QXkkUhqTIJ2JpGG88TonfyXM9
+PFLAdkdDq5J4YcDSSmF4hOZQckP59H7NZ1Ba0013I2GAS8LUcSfQ/oU7uO6n5TaG
+G6PRU0HMdgO3atCTffPbAtPq/rjBmIZjU7Ixr+vI9QZ45yir08JeWUoUyEcoPRlv
+ioQb0qeFf32FyH73uPD5GrpcmINX6zOi21rYCmfICJNK3RBBIlq9AgMBAAGjggEj
+MIIBHzByBggrBgEFBQcBAQRmMGQwMQYIKwYBBQUHMAKGJWh0dHA6Ly9yb290LWNh
+LlRlbGVjby5jb20vcm9vdC1jYS5jcnQwLwYIKwYBBQUHMAGGI2h0dHA6Ly9vY3Nw
+LnJvb3QtY2EuVGVsZWNvLmNvbTo5MDgwMB8GA1UdIwQYMBaAFLt2YQpMm4dIh+ca
+I8+fTgyGAnrGMAwGA1UdEwEB/wQCMAAwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDov
+L3Jvb3QtY2EuVGVsZWNvLmNvbS9yb290LWNhLmNybDATBgNVHSUEDDAKBggrBgEF
+BQcDAjAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0OBBYEFFc1PKzmvtN/MFg1KDMvPLbE
+ZQnaMA0GCSqGSIb3DQEBCwUAA4ICAQAeP99ZrsybjbBK+/+HA7KxAw8SBi19GhIi
+t4lS0ga45gdqKZlNq097m3TyM9tuiHCibIyHMRvsTsMYC3YwEzgwb56ugR7fgt4u
+KhX/UWMMjD4ZCcrRv8SMsjPcrrgRaymi+sg9pEE8N7e+yoA/hDC7qfsZB+zvzX1O
+otltb4k/vXOZFRCbk8sWEnJaY5dJzqer5M5LRTh29Z63G5VpZttfZPPRup15Z1gx
+svFOzwpHKb5tZpfFwZdVMvJwx1gvt2WNZq15Y8Jv3P1Gny7F95ZgEso0w84+povr
+ISMWr5+UDgYd4JrO/BZ8CS9UtXNC5bhnHZo1IVJ5/7mK+T6Rjo9ZIvOAzNAAutVs
+zU4DUTFD50wB1v8iYwH5sYML9CwJkyqtIguLwgxYnjEGTU7OVxjRdHrqFgeOSNY6
+ByRM8HdBsFxDTi3we9V4MZZDULqGDO7xHFqWpuA4uORdvSHrNLznRbj9JfDKq1IO
+TqqF7X6JSUmf3ol3BH9wBfTlwdIPGgFVJZnc9iH9W509PIaRZu9A1gaXjZNSl3fE
+3Vmu3wihVnSxCP+KOIe8SVEess/vwEaaRUiB9jRHLPSF2be8IKIM9ByfM6ctajjH
+flRntOxD0QMevzXqVGtWnMX3Eb4LMxYy2wrCWUSUrb5ZEW5o1ZdxuMWznvEDy2Lq
+RaGh3E71UA==
+-----END CERTIFICATE-----
